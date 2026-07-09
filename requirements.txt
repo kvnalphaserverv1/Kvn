@@ -1,3 +1,73 @@
-pyTelegramBotAPI
-requests
-beautifulsoup4
+# CC Killer Bot - Python Dependencies
+# Python 3.9+ required
+# Install: pip3 install -r requirements.txt
+
+# Core Telegram Bot Framework
+pyTelegramBotAPI==4.16.0
+
+# HTTP Requests with Proxy Support
+requests==2.31.0
+
+# HTML Parsing for Payment Gateways
+beautifulsoup4==4.12.2
+
+# Additional HTML Parsing Support
+lxml==4.9.3
+
+# JSON Web Token Support (optional, for future enhancements)
+PyJWT==2.8.0
+
+# Database Abstraction (SQLite is built-in, but for future migration)
+# sqlalchemy==2.0.23  # Uncomment if needed
+
+# Proxy Authentication Support
+urllib3==2.0.7
+
+# IP Address Validation
+ipaddress==1.0.23
+
+# Concurrent Processing (built-in, but ensuring compatibility)
+# concurrent-futures==3.1.1  # Built-in for Python 3.9+
+
+# Type Hints Support
+typing-extensions==4.8.0
+
+# Date/Time Handling (built-in)
+# python-dateutil==2.8.2  # Uncomment if needed
+
+# Random Data Generation (built-in)
+# faker==20.1.0  # Uncomment if more realistic data needed
+
+# Scapy for packet-level operations (if using NFQUEUE)
+# scapy==2.5.0  # Uncomment if using packet capture mode
+
+# NetfilterQueue for packet interception (if using NFQUEUE)
+# netfilterqueue==1.0.2  # Uncomment if using packet capture mode
+
+# Testing Framework (optional, for development)
+# pytest==7.4.3
+# pytest-cov==4.1.0
+
+# Code Quality (optional, for development)
+# black==23.11.0
+# flake8==6.1.0
+# mypy==1.7.0
+
+# Logging Enhancements (optional)
+# colorlog==6.7.0  # Uncomment for colored console output
+
+# Environment Variables Management (optional)
+# python-dotenv==1.0.0  # Uncomment for .env support
+
+# Rate Limiting (optional)
+# ratelimit==2.2.1  # Uncomment for additional rate limiting
+
+# Async Support (optional, for future async implementation)
+# aiohttp==3.9.1
+# asyncio==3.4.3  # Built-in for Python 3.9+
+
+# Cryptography (optional, for encryption)
+# cryptography==41.0.7  # Uncomment if encrypting sensitive data
+
+# System Monitoring (optional)
+# psutil==5.9.6  # Uncomment for system resource monitoring
