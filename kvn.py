@@ -13,7 +13,7 @@ import sys
 from bs4 import BeautifulSoup
 
 # Telegram Bot Token and Owner ID
-BOT_TOKEN = "7461340238:AAEN2KymDmOs9RqEuXt3cEWDZsWklwQL88M" # Replace with your bot token
+BOT_TOKEN = "8932146037:AAGSmnMhI4eUlnPYtk76SIJRt8obaAJh6NE" # Replace with your bot token
 OWNER_ID = 5616232839  # Replace with your Telegram ID
 
 # Configure logging
